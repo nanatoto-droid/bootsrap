@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navigation</title>
+</head>
+<body >
+
+<!--start nav bar-->
+<nav class="navbar navbar-expand-lg bg-primary-subtle">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Random</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link" href="#">Download</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Education</a></li>
+            <li><a class="dropdown-item" href="#">Achivement</a></li>
+<!--            <li><hr class="dropdown-divider"></li>-->
+            <li><a class="dropdown-item" href="#">Reference</a></li>
+          </ul>
+        </li>
+<!--        <li class="nav-item">-->
+<!--          <a class="nav-link disabled" aria-disabled="true">Disabled</a>-->
+<!--        </li>-->
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!--end navbar-->
+<!--star of carosel-->
+<div id="carouselExampleAutoplaying " class="carousel slide bg-primary-subtle" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="static/images/pexels-kelly-1179532-2519374.jpg" class="d-block w-100 h-50" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="static/images/pexels-pixabay-163210.jpg" class="d-block w-100 h-40" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="static/images/pexels-brunocervera-128817.jpg" class="d-block w-100 h-50" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--end of carosel-->
+<!--start of cards-->
+<div class="container-fluid mt-5 bg-primary-subtle">
+  <div class="row">
+    <div class="col-4">
+      <div class="card" style="width: 18rem;">
+  <img src="static/images/pexels-markus-winkler-1430818-2888679.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Cultural cuisine</h5>
+    <p class="card-text">This is an example of korean cuisine popular in the lake region side of south korea</p>
+    <a href="https://discover.silversea.com/destinations/asia/wide-world-korean-food/" class="btn btn-primary">Learn more</a>
+  </div>
+</div>
+    </div>
+    <div class="col-4">
+      <div class="card" style="width: 18rem;">
+  <img src="static/images/pexels-ethan-brooke-1123775-2128040.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Pretty Cities</h5>
+    <p class="card-text">They are many hidden jems in the world esepecialy where you least expected.</p>
+    <a href="https://www.wanderlustmagazine.com/inspiration/27-secret-travel-destinations/" class="btn btn-primary">Dicover more</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+  <img src="static/images/pexels-poodles2doodles-1458916.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Pets</h5>
+    <p class="card-text">Best companion to keep aroud.You can never go worng with getting a pet</p>
+    <a href="https://www.britannica.com/animal/pet" class="btn btn-primary">Learn more</a>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+<!--end of cards-->
+
+<script src="static/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
